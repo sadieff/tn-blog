@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="ru">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>TN blog</title>
+
+    <link rel="stylesheet" href="js/carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/fb/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/carousel/owl.carousel.min.js"></script>
+    <script src="js/fb/jquery.fancybox.min.js"></script>
+    <script src="js/svgxuse.min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+
+    <header class="header container">
+
+        <div class="header-nav">
+            <a href="/" class="header-logo">
+                <svg>
+                    <use xlink:href="images/sprite.svg#logo"></use>
+                </svg>
+            </a>
+            <button type="button" class="header-menu-open js-menu-toggle">
+                Меню
+            </button>
+            <nav class="header-menu">
+                <div class="header-menu-wrapper">
+                    <button type="button" class="header-menu-close js-menu-toggle">
+                    </button>
+                    <ul>
+                        <li><a href="theory.html">Теория</a></li>
+                        <li><a href="practice.html">Практика</a></li>
+                        <li class="-pro"><a href="theory-pro.html">Для специалистов</a></li>
+                        <li class="-video"><a href="video.html">Видео</a></li>
+                        <li class="-archive"><a href="#">Архив</a></li>
+                    </ul>
+                </div>
+                <a href="theory-pro.html" class="header-menu-pro">
+                    <div class="header-menu-pro-text">Для специалистов</div>
+                    <div class="header-menu-pro-switch"></div>
+                </a>
+            </nav>
+        </div>
+
+        <div class="header-actions">
+            <button type="button" class="header-search">
+                <svg>
+                    <use xlink:href="images/sprite.svg#search"></use>
+                </svg>
+            </button>
+            <div class="header-user">
+                <picture class="header-user-icon">
+                    <img src="images/avatar.png" alt="">
+                </picture>
+                <svg class="header-user-login" style="display: none">
+                    <use xlink:href="images/sprite.svg#login"></use>
+                </svg>
+                <ul class="header-user-menu">
+                    <li><a href="#" class="js-login">Вход</a></li>
+                    <li><a href="#" class="js-reg">Регистрация</a></li>
+                    <li><a href="#" class="js-exit">Выход</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header> <!-- header -->
+
+    <main>
+        <div class="container">
+            <div class="feedback-page">
+                <div class="feedback-page-wrap">
+                    <div class="feedback-page-content">
+                        <div class="feedback-page-title">
+                            обратная связь
+                        </div>
+                        <div class="feedback-page-text content_">
+                            <p>Пять типичных ошибок при сооружении отмостки: что профессионалы не рекомендуют делать. Пять типичных ошибок при сооружении отмостки: что профессионалы не рекомендуют делать</p>
+                        </div>
+                    </div>
+                    <form class="feedback-page-form" action="#">
+                        <div class="feedback-item">
+                            <input type="text" name="name" placeholder="Ваше имя" data-rules="required">
+                        </div>
+                        <div class="feedback-item">
+                            <input type="text" name="email" placeholder="Почта" data-rules="required,email">
+                        </div>
+                        <div class="feedback-item">
+                            <input type="text" name="phone" placeholder="Телефон" data-rules="required,phone">
+                        </div>
+                        <div class="feedback-item">
+                            <input type="text" name="theme" placeholder="Тема">
+                        </div>
+                        <div class="feedback-item">
+                            <textarea name="msg" placeholder="Напишите, что думаете" data-rules="required"></textarea>
+                        </div>
+                        <div class="feedback-item">
+                            <label class="checkbox">
+                                <input type="checkbox" name="politic">
+                                <span>Соглашаюсь с политикой обработки персональных данных</span>
+                            </label>
+                        </div>
+                        <div class="feedback-button-box">
+                            <button type="button" class="button js-submit">
+                                Подписаться
+                            </button>
+                        </div>
+                        <svg class="clip">
+                            <use xlink:href="images/sprite.svg#clip"></use>
+                        </svg>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-contacts">
+                <div class="footer-row">
+                    <div class="footer-col footer-phones">
+                        <div class="footer-phone">
+                            <a href="tel:+78006000565">
+                                +7 800 600 05 65
+                            </a>
+                            <span>бесплатно по Росссии</span>
+                        </div>
+                        <div class="footer-phone">
+                            <a href="tel:+74956600565">
+                                +7 495 660 05 65
+                            </a>
+                            <span>международные звонки</span>
+                        </div>
+                    </div>
+                    <div class="footer-col footer-nav">
+                        <ul>
+                            <li>
+                                <a href="#">Теория</a>
+                                <ul>
+                                    <li><a href="#">Теория стройки</a></li>
+                                    <li><a href="#">Хочу спросить</a></li>
+                                    <li><a href="#">Теория красоты</a></li>
+                                    <li><a href="#">Мифы и легенды строительства</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">Практика</a>
+                                <ul>
+                                    <li><a href="#">Матчасть</a></li>
+                                    <li><a href="#">Проекты</a></li>
+                                    <li><a href="#">Работа над ошибками</a></li>
+                                    <li><a href="#">Мастер-класс</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-row footer-socials">
+                    <div class="footer-col">
+                        <div class="footer-title">
+                            Соцсети
+                        </div>
+                        <ul class="footer-social">
+                            <li><a href="#" class="footer-social-item -vk"></a></li>
+                            <li><a href="#" class="footer-social-item -yt"></a></li>
+                            <li><a href="#" class="footer-social-item -ok"></a></li>
+                            <li><a href="#" class="footer-social-item -im"></a></li>
+                            <li><a href="#" class="footer-social-item -tt"></a></li>
+                            <li><a href="#" class="footer-social-item -sp"></a></li>
+                            <li><a href="#" class="footer-social-item -dz"></a></li>
+                            <li><a href="#" class="footer-social-item -tm"></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col footer-box-feedback">
+                        <div class="footer-block">
+                            <div class="footer-title">
+                                Для экспертов
+                            </div>
+                            <ul class="footer-social">
+                                <li><a href="#" class="footer-social-item -vk"></a></li>
+                                <li><a href="#" class="footer-social-item -yt"></a></li>
+                                <li><a href="#" class="footer-social-item -fb"></a></li>
+                                <li><a href="#" class="footer-social-item -tm"></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-block">
+                            <button class="footer-feedback js-open-feedback" type="button">Обратная связь</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-company">
+            <div class="container">
+                <div class="footer-company-title js-open-projects">
+                    Все проекты ТЕХНОНИКОЛЬ
+                </div>
+                <div class="footer-projects js-projects">
+                    <div class="footer-projects-title-mobile">
+                        Все проекты ТЕХНОНИКОЛЬ
+                    </div>
+                    <div class="footer-projects-close js-projects-close"></div>
+                    <div class="footer-projects-wrapper">
+                        <ul>
+                            <li><a href="#">Пректы Корпорции ТЕХНОНИКОЛЬ</a></li>
+                            <li><a href="#">Официальный сайт Корпорации ТЕХНОНИКОЛЬ</a></li>
+                            <li><a href="#">Официальный интернет-магазин</a></li>
+                            <li><a href="#">ТЕХНОНИКОЛЬ Навигатор</a></li>
+                            <li><a href="#">Полимерные мембраны</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Монтажные пены</a></li>
+                            <li><a href="#">Академия ТЕХНОНИКОЛЬ</a></li>
+                            <li><a href="#">ТЕХНОНИКОЛЬ Европа</a></li>
+                            <li><a href="#">Материалы для гидроизоляции</a></li>
+                            <li><a href="#">Рулоновые материалы для частного домостроения</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Профилированные мембраны</a></li>
+                            <li><a href="#">Мастики и строительная химия</a></li>
+                            <li><a href="#">Теплоизоляция на основе каменной ваты</a></li>
+                            <li><a href="#">Экструзионный пенополистирол</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Гибкая черепица</a></li>
+                            <li><a href="#">Композитная черепица</a></li>
+                            <li><a href="#">Строительные пленки</a></li>
+                            <li><a href="#">Пенополиизоцианурат (PIR)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-projects-bg"></div>
+                <div class="footer-legal">
+                    <div class="footer-copy">
+                        © 2021 Группа компаний ТЕХНОНИКОЛЬ. Все права защищены
+                    </div>
+                    <div class="footer-design">
+                        Дизайн – <a href="#">MAX</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal feedback container js-modal-feedback">
+        <div class="feedback-wrapper">
+            <div class="feedback-row">
+                <div class="feedback-col feedback-image">
+                    <div class="feedback-title">
+                        Будьте в курсе
+                    </div>
+                    <div class="feedback-dsc">
+                        Пять типичных ошибок при сооружении отмостки, что профессионалы не рекомендуют
+                    </div>
+                </div>
+                <div class="feedback-col">
+                    <form action="#">
+                        <div class="feedback-item">
+                            <input type="text" name="name" placeholder="Ваше имя" data-rules="required">
+                        </div>
+                        <div class="feedback-item">
+                            <input type="text" name="email" placeholder="Почта" data-rules="required,email">
+                        </div>
+                        <div class="feedback-item">
+                            <label class="checkbox">
+                                <input type="checkbox" name="politic">
+                                <span>Соглашаюсь с политикой обработки персональных данных</span>
+                            </label>
+                        </div>
+                        <div class="feedback-button-box">
+                            <button type="button js-submit" class="button">
+                                Подписаться
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> <!-- feedback modal -->
+
+    <div class="modal modal-form js-modal-login">
+        <div class="modal-title">
+            Вход
+        </div>
+        <form action="#">
+            <div class="modal-form-item">
+                <div class="input">
+                    <input type="text" name="email" placeholder="Почта" data-rules="email,required">
+                </div>
+            </div>
+            <div class="modal-form-item">
+                <div class="input">
+                    <input type="password" name="password" placeholder="Пароль" data-rules="required">
+                </div>
+            </div>
+            <div class="modal-form-save">
+                <label class="checkbox -dark">
+                    <input type="checkbox" name="save">
+                    <span>Запомнить меня</span>
+                </label>
+            </div>
+            <button class="button modal-form-button js-submit" type="submit">
+                Войти
+            </button>
+            <div class="modal-form-recovery">
+                <button type="button" class="modal-form-recovery-button js-open-recovery">
+                    Забыли пароль?
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal modal-form js-modal-reg">
+        <div class="modal-title">
+            Регистрация
+        </div>
+        <form action="#">
+            <div class="modal-form-item">
+                <div class="input">
+                    <input type="text" name="email" placeholder="Почта" data-rules="required,email">
+                </div>
+            </div>
+            <div class="modal-form-item">
+                <div class="input">
+                    <input type="password" name="password" placeholder="Пароль" data-rules="required">
+                </div>
+            </div>
+            <div class="modal-form-item">
+                <div class="input">
+                    <input type="password" name="confirm_password" placeholder="Повторите пароль" data-rules="required">
+                </div>
+            </div>
+            <div class="modal-form-save">
+                <label class="checkbox -dark">
+                    <input type="checkbox" name="politic">
+                    <span>Я ознакомлен и согласен с условиями политики конфиденциальности</span>
+                </label>
+            </div>
+            <button class="button modal-form-button js-submit" type="submit">
+                Зарегистрироваться
+            </button>
+        </form>
+    </div>
+
+    <div class="modal modal-form js-modal-recovery">
+        <div class="modal-title">
+            Восстановление пароля
+        </div>
+        <div class="modal-dsc">
+            Укажите вашу почту. Мы вышлем на неё ссылку для восстановления пароля
+        </div>
+        <form action="#">
+            <div class="modal-form-item">
+                <div class="input">
+                    <input type="text" name="email" placeholder="Почта" data-rules="required,email">
+                </div>
+            </div>
+            <button class="button modal-form-button js-submit" type="submit">
+                Отправить ссылку
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
